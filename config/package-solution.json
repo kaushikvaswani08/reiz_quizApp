@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "reiz-quiz-app-client-side-solution",
+    "id": "9e5ee2a7-4e44-4200-aa06-01c36fdaca9c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "reiz-quiz-app description"
+      },
+      "longDescription": {
+        "default": "reiz-quiz-app description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "reiz-quiz-app Feature",
+        "description": "The feature that activates elements of the reiz-quiz-app solution.",
+        "id": "f589f325-7625-4591-8ae6-ace2e8f6038c",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/reiz-quiz-app.sppkg"
+  }
+}

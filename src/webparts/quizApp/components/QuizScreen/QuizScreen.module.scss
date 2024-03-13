@@ -1,0 +1,20 @@
+.quizTitleContainer {
+	display: flex;
+	justify-content: space-between;
+	background-color: black;
+	padding: 15px;
+	padding-left: 10px;
+}
+
+.quizTitle {
+	color: white;
+}
+
+.answerFields {
+	width: 30%;
+}
+
+.formActions {
+	justify-content: space-between;
+	margin-top: 20px;
+}

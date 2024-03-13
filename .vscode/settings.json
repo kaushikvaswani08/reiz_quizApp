@@ -1,0 +1,32 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+	// Configure glob patterns for excluding files and folders in the file explorer.
+	"files.exclude": {
+		"**/.git": true,
+		"**/.DS_Store": true,
+		"**/bower_components": true,
+		"**/coverage": true,
+		"**/jest-output": true,
+		"**/lib-amd": true,
+		"src/**/*.scss.ts": true
+	},
+	"typescript.tsdk": ".\\node_modules\\typescript\\lib",
+
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+
+	"prettier.useTabs": true,
+	"prettier.requireConfig": false,
+	"prettier.tabWidth": 4,
+	"prettier.bracketSpacing": true,
+	"prettier.bracketSameLine": false,
+	"prettier.singleQuote": false,
+	"prettier.jsxSingleQuote": false,
+	"prettier.trailingComma": "es5",
+	"prettier.semi": true,
+	"prettier.printWidth": 120,
+	"prettier.arrowParens": "always",
+	"prettier.endOfLine": "auto"
+}

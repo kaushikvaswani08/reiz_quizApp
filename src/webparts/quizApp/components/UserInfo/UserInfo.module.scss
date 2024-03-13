@@ -1,0 +1,28 @@
+@import "~@fluentui/react/dist/sass/References.scss";
+
+.userInfoForm {
+	padding: 20px;
+}
+
+.formFields {
+	width: 100%;
+}
+
+.formColumn {
+	flex: 1;
+}
+
+.formActions {
+	justify-content: flex-end;
+	margin-top: 20px;
+}
+
+.title {
+	color: #333;
+}
+
+.icon {
+	font-size: 25px;
+	font-weight: 900;
+	margin-top: 55px;
+}
