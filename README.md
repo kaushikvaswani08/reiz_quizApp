@@ -25,8 +25,8 @@ Upon completion, the final screen dynamically showcases the quiz results, offeri
 
 The quiz app employs an exceptionally user-friendly approach, streamlining user navigation throughout the application. To enhance data handling efficiency, I have integrated additional libraries, specifically:
 
-Formik:
+**Formik**:
 Utilized for managing the user form screen, Formik takes care of repetitive tasks such as tracking values, errors, visited fields, validation, and submission orchestration. This liberates developers from the tedious work of wiring up state and change handlers, allowing more focus on core business logic. Formik operates within the core React framework, avoiding complex subscriptions or observables. Its simplicity facilitates debugging, testing, and reasoning about forms. Notably, Formik, designed for React-savvy individuals familiar with forms, doesn't rely on external state management libraries like Redux or MobX. This incremental adoptability ensures a minimal bundle size.
 
-Zustand:
+**Zustand**:
 A compact, swift, and scalable state management solution following simplified flux principles. Boasting a comfortable API based on hooks, Zustand avoids boilerplate code and unnecessary opinions. Despite its charming appearance, it is a robust state manager that addresses common challenges such as the zombie child problem, React concurrency, and context loss between mixed renderers. In the React ecosystem, Zustand stands out as a state manager that adeptly handles these issues, making it a reliable choice for efficient state management.
